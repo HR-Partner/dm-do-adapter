@@ -17,7 +17,7 @@ Gem::Specification.new do |gem|
   gem.version       = DataMapper::DoAdapter::VERSION
 
   gem.add_runtime_dependency(%q<data_objects>, ["~> 0.10.6"])
-  gem.add_runtime_dependency(%q<dm-core>, ["~> 1.3.0.beta"])
+  gem.add_runtime_dependency(%q<dm-core>, ["~> 1.2.0"])
 
   gem.add_development_dependency(%q<rake>, ["~> 0.9.2"])
   gem.add_development_dependency(%q<rspec>, ["~> 1.3.2"])
